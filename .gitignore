@@ -1,0 +1,13 @@
+# Backend
+estoque-server/target/
+*.log
+
+# Frontend
+estoque-web/node_modules/
+estoque-web/dist/
+
+# Docker
+*.env
+
+#Intellij
+/.idea/
