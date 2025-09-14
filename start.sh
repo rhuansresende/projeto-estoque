@@ -4,7 +4,7 @@
 echo "Iniciando containers Docker..."
 docker compose up -d --build
 
-echo "Aguardando 5 segundos para inicialização..."
+echo "Aguardando 10 segundos para inicialização..."
 sleep 10
 
 echo "Containers iniciados!"
