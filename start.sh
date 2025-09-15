@@ -2,7 +2,8 @@
 # Script para iniciar o sistema de estoque
 
 echo "Iniciando containers Docker..."
-docker compose up -d --build
+docker-compose build --no-cache backend
+docker-compose up -d
 
 echo "Aguardando 10 segundos para inicialização..."
 sleep 10
