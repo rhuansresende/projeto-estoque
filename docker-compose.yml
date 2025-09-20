@@ -61,7 +61,7 @@ services:
       - API_URL=https://backend:${ESTOQUE_SERVICE_PORT}
       - TZ=America/Sao_Paulo
     ports:
-      - "${ESTOQUE_WEB_PORT}:443"
+      - "${ESTOQUE_WEB_PORT}:${ESTOQUE_WEB_PORT}"
     depends_on:
       - backend
     restart: unless-stopped
