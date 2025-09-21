@@ -29,5 +29,4 @@ echo Subindo containers para o ambiente: %ENV%
 
 echo.
 echo ================================
-echo Fim do processo. Pressione ENTER para sair.
-pause
+echo Fim do processo.
