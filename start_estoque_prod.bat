@@ -10,7 +10,7 @@ set BASE_PATH=D:\Documentos\Rhuan\AmbienteEstoque\Projetos
 set PROJECTS=estoque-backup estoque-service estoque-web projeto-estoque
 
 echo.
-echo Atualizando repositórios Git...
+echo Atualizando repositorios Git...
 
 for %%P in (%PROJECTS%) do (
     echo ------------------------
@@ -31,4 +31,3 @@ cd /d %BASE_PATH%\projeto-estoque
 echo.
 echo ================================
 echo Fim do processo.
-pause

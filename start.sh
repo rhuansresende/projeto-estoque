@@ -17,4 +17,4 @@ echo "Aguardando 10 segundos para inicialização..."
 sleep 10
 
 echo "Containers iniciados!"
-echo "Acesse o sistema em: http://estoque.bs.emporio.com.br:4200/estoque/"
+echo "Acesse o sistema em: http://estoque.bs.emporio.com.br/estoque/"

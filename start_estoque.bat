@@ -26,7 +26,7 @@ if "%ENV%"=="" (
 set BASE_PATH=D:\Documentos\Rhuan\AmbienteEstoque\Projetos
 
 echo.
-echo Atualizando repositórios Git...
+echo Atualizando repositorios Git...
 
 :: Estoque Backup
 cd /d %BASE_PATH%\estoque-backup
@@ -71,4 +71,3 @@ echo Subindo containers para o ambiente: %ENV%
 echo.
 echo ================================
 echo Fim do processo.
-pause
